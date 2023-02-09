@@ -18,5 +18,15 @@ echo round($numero2);
 echo "</br>";
 $numero3 = 12.428773;
 echo round($numero3, 3);
-
+echo "</br>";
+#Gerar valor aleatório
+$aleatorio = rand(3,9);
+echo $aleatorio;
+echo "</br>";
+#Como saber o maior numero da lista
+$lista = [1, 4, 9, 8, 12];
+echo max($lista);
+echo "</br>";
+#Como saber o menor numero da lista
+echo min($lista);
 ?>
